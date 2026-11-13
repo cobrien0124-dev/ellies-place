@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Activities | Ellie's Place — Freeport, Grand Bahama</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar scrolled" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="Photos/Logo/ellies-place-logo.png" alt="Ellie's Place" class="nav-logo-img" />
+      </a>
+      <button class="nav-toggle" id="navToggle"><i class="fas fa-bars"></i></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="activities.html" class="active">Activities</a></li>
+        <li><a href="restaurants.html">Dining</a></li>
+        <li><a href="nightlife.html">Nightlife</a></li>
+        <li><a href="attractions.html">Attractions</a></li>
+        <li><a href="index.html#contact" class="nav-cta">Book Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="page-hero-content">
+      <span class="section-badge">Freeport, Grand Bahama</span>
+      <h1>Things To Do</h1>
+      <p>Adventure, relaxation, and everything in between</p>
+    </div>
+  </section>
+
+  <!-- Activities -->
+  <section class="cards-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Outdoor Fun</span>
+        <h2>Activities Near Ellie's Place</h2>
+        <p>Grand Bahama Island offers world-class outdoor activities for every type of traveler</p>
+      </div>
+      <div class="cards-grid">
+
+        <div class="card banana-bay-card snorkel-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/1a/67/06/sanctuary-bay.jpg" alt="Sanctuary Bay" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/1a/67/0b/glass-bottom-boat.jpg" alt="Glass Bottom Boat" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/1a/67/0a/snorkel-sea-safari.jpg" alt="Snorkel Sea Safari" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/1a/67/09/captain-gus.jpg" alt="Captain Gus" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/4f/9f/4b/unexso.jpg" alt="UNEXSO" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/4f/9f/46/unexso.jpg" alt="UNEXSO" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/4f/9f/44/unexso.jpg" alt="UNEXSO" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/9c/fd/9e/caption.jpg" alt="Dolphins" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/6f/e5/13/caption.jpg" alt="UNEXSO Experience" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/43/78/df/caption.jpg" alt="Marine Life" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/43/78/de/caption.jpg" alt="UNEXSO" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/bf/6b/ac/caption.jpg" alt="UNEXSO" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('snorkel-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('snorkel-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="sn-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
+                  <span class="card-tag">Diving & Snorkeling</span>
+                  <span style="background:#e8f4fd; color:#1a6fa8; font-size:0.78rem; font-weight:700; padding:4px 12px; border-radius:50px;">⭐ 4.7 · #2 Water Sport in Freeport</span>
+                </div>
+                <h3>Snorkeling & Scuba Diving at UNEXSO</h3>
+                <p>Grand Bahama's crystal-clear waters are home to vibrant coral reefs, tropical fish, and incredible marine life. UNEXSO — established since 1965 — is the premier dive and snorkel operator in the Bahamas, offering shark dives, snorkel sea safaris, glass-bottom boat tours, and unforgettable dolphin encounters at Sanctuary Bay. Rated <strong>4.7 stars</strong> by over 1,000 visitors.</p>
+                <div class="card-meta" style="flex-wrap:wrap; gap:10px; margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Port Lucaya, Freeport</span>
+                  <span><i class="fas fa-clock"></i> Daily 8am–6pm</span>
+                  <span><i class="fas fa-phone"></i> +1 800-992-3483</span>
+                  <span><i class="fas fa-globe"></i> sanctuarybaybahamas.com</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-water"></i> What's Available</h4>
+                <ul>
+                  <li>🤿 Snorkel sea safari tours</li>
+                  <li>🦈 Shark diving & reef dives</li>
+                  <li>🐬 Dolphin encounters at Sanctuary Bay</li>
+                  <li>🚤 Glass-bottom boat tours</li>
+                  <li>🌊 Sightseeing boat tours</li>
+                  <li>🎓 Education & research programs</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card banana-bay-card fishing-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/cd/cc/5c/just-some-of-our-catch.jpg" alt="Deep Sea Fishing Catch" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/49/16/27/baracuda.jpg" alt="Barracuda Catch" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/fa/d4/66/a-portion-of-our-catch.jpg" alt="Fishing Catch of the Day" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/cf/45/74/caption.jpg" alt="Deep Sea Fishing Grand Bahama" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/77/84/c3/caption.jpg" alt="Fishing Charter" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/1f/d9/81/lil-b-fishing.jpg" alt="Lil B Fishing" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/72/2c/b6/a-cleaned-fish-is-a-good.jpg" alt="Fresh Catch Deep Sea Fishing" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('fishing-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('fishing-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="fi-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
+                  <span class="card-tag">Water Sport</span>
+                </div>
+                <h3>Deep Sea Fishing</h3>
+                <p>Charter a boat and head out to the deep blue for mahi-mahi, wahoo, tuna, and marlin. Grand Bahama's waters are among the most productive fishing grounds in the Atlantic. Multiple charter operators depart from Freeport Harbour daily.</p>
+                <div class="card-meta" style="flex-wrap:wrap; gap:10px; margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Freeport Harbour</span>
+                  <span><i class="fas fa-clock"></i> Half/Full Day trips</span>
+                  <span><i class="fas fa-ticket-alt"></i> Year-round</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-fish"></i> What's Available</h4>
+                <ul>
+                  <li>🐟 Mahi-mahi &amp; wahoo</li>
+                  <li>🐠 Yellowfin tuna</li>
+                  <li>🦈 Deep sea marlin</li>
+                  <li>🚤 Private charter boats</li>
+                  <li>🎣 All gear provided</li>
+                  <li>🏆 Tournament fishing available</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card banana-bay-card kayak-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/85/34/ae/clear-kayak-photo-shoot.jpg" alt="Clear Kayak Grand Bahama" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/85/34/af/clear-kayak-photo-shoot.jpg" alt="Clear Kayak Tour" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/82/16/99/i-did-the-clear-kayak.jpg" alt="Kayaking Crystal Clear Waters" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/85/34/b0/clear-kayak-photo-shoot.jpg" alt="Kayak Photoshoot" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/f7/fc/f9/caption.jpg" alt="Paddleboarding Grand Bahama" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/3c/a7/c7/caption.jpg" alt="Kayaking Turquoise Waters" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/57/b8/bc/caption.jpg" alt="Clear Kayak Bahamas" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('kayak-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('kayak-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="ka-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
+                  <span class="card-tag">Water Sport</span>
+                </div>
+                <h3>Kayaking &amp; Paddleboarding</h3>
+                <p>Glide through Grand Bahama's crystal-clear turquoise waters at your own pace. Explore hidden coves, mangrove creeks, and pristine shorelines by kayak or stand-up paddleboard. Rentals available at Taino Beach and Pirates Cove.</p>
+                <div class="card-meta" style="flex-wrap:wrap; gap:10px; margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Taino Beach &amp; Pirates Cove</span>
+                  <span><i class="fas fa-clock"></i> Hourly rentals</span>
+                  <span><i class="fas fa-ticket-alt"></i> Year-round</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-water"></i> What's Available</h4>
+                <ul>
+                  <li>🌊 Calm turquoise waters</li>
+                  <li>🌿 Mangrove creek tours</li>
+                  <li>🏝️ Hidden cove exploration</li>
+                  <li>🚣 Single &amp; double kayaks</li>
+                  <li>🏄 Stand-up paddleboard</li>
+                  <li>🐠 Snorkel combo available</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card banana-bay-card dolphins-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/1a/67/06/sanctuary-bay.jpg" alt="Sanctuary Bay" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/9c/fd/9e/caption.jpg" alt="Dolphins" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/9c/fd/9d/caption.jpg" alt="Dolphin Encounter" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/1a/67/09/captain-gus.jpg" alt="Captain Gus" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/4f/9f/4b/unexso.jpg" alt="UNEXSO" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('dolphins-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('dolphins-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="do-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
+                  <span class="card-tag">Wildlife Experience</span>
+                  <span style="background:#e8f4fd; color:#1a6fa8; font-size:0.78rem; font-weight:700; padding:4px 12px; border-radius:50px;">⭐ 4.7 · World-Famous Experience</span>
+                </div>
+                <h3>Swim with Dolphins</h3>
+                <p>One of the most magical experiences in the Bahamas — swim alongside Atlantic bottlenose dolphins in the open water at UNEXSO's Sanctuary Bay. Guided by professional marine trainers, this bucket-list encounter is suitable for all ages and skill levels.</p>
+                <div class="card-meta" style="flex-wrap:wrap; gap:10px; margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Sanctuary Bay, UNEXSO</span>
+                  <span><i class="fas fa-clock"></i> Daily 8am–6pm</span>
+                  <span><i class="fas fa-phone"></i> +1 800-992-3483</span>
+                  <span><i class="fas fa-globe"></i> sanctuarybaybahamas.com</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-star"></i> Highlights</h4>
+                <ul>
+                  <li>🐬 Open-water dolphin swim</li>
+                  <li>🌊 Sanctuary Bay facility</li>
+                  <li>👨‍🏫 Pro marine trainers</li>
+                  <li>🎓 Educational programs</li>
+                  <li>📸 Photos available</li>
+                  <li>🏆 Bucket-list experience</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card banana-bay-card golf-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/61/ed/3d/caption.jpg" alt="Reef Golf Course" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/61/ed/ad/caption.jpg" alt="Reef Golf Course" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/d2/a2/ad/caption.jpg" alt="Reef Golf Course" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/d2/a2/ac/caption.jpg" alt="Reef Golf Course" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/f8/48/18/photo9jpg.jpg" alt="Reef Golf Course" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/f8/48/15/photo7jpg.jpg" alt="Reef Golf Course" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/f8/48/13/photo6jpg.jpg" alt="Reef Golf Course" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/f8/48/0c/photo0jpg.jpg" alt="Reef Golf Course" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('golf-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('golf-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="go-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
+                  <span class="card-tag">Golf</span>
+                  <span style="background:#e8f4fd; color:#1a6fa8; font-size:0.78rem; font-weight:700; padding:4px 12px; border-radius:50px;">⭐ 3.4 · Only 18-Hole Course on Grand Bahama</span>
+                </div>
+                <h3>Golf at Reef Golf Course</h3>
+                <p>Grand Bahama's only 18-hole resort golf course, designed by the legendary Robert Trent Jones Jr. Spanning 6,909 yards with bunkers, water hazards, and lush fairways — once named one of the world's Top 100 golf courses. Features a pro shop, on-site restaurant, and stunning tropical surroundings.</p>
+                <div class="card-meta" style="flex-wrap:wrap; gap:10px; margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Seahorse Road, Freeport</span>
+                  <span><i class="fas fa-clock"></i> Advance booking recommended</span>
+                  <span><i class="fas fa-ticket-alt"></i> Green fees from $85</span>
+                  <span><i class="fas fa-car"></i> Cart rental required</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-golf-ball"></i> Highlights</h4>
+                <ul>
+                  <li>⛳ 18-hole championship course</li>
+                  <li>🏆 Robert Trent Jones Jr. design</li>
+                  <li>🛒 Pro shop on-site</li>
+                  <li>🍽️ On-site restaurant</li>
+                  <li>🌴 Tropical surroundings</li>
+                  <li>🚗 Powered cart included</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card banana-bay-card boat-tours-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/35/10/3e/reef-tours.jpg" alt="Reef Tours Grand Bahama" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/84/11/6a/glass-bottom-boat.jpg" alt="Glass Bottom Boat" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/0f/ed/1a/caribbean-reef-sharks.jpg" alt="Caribbean Reef Sharks" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/af/7b/12/sharks.jpg" alt="Sharks Underwater" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/83/42/cc/some-of-the-fish-that.jpg" alt="Fish Through Glass Bottom" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/ae/e0/c2/reef-tours.jpg" alt="Reef Tours Boat" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/ea/9f/02/photo0jpg.jpg" alt="Boat Tour Grand Bahama" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('boat-tours-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('boat-tours-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="bt-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
+                  <span class="card-tag">Water Tour</span>
+                </div>
+                <h3>Boat Tours &amp; Island Hopping</h3>
+                <p>Hop aboard a glass-bottom boat, private charter, or catamaran to discover Grand Bahama's surrounding cays and hidden beaches. Explore remote snorkeling spots, uninhabited islands, and crystal-clear sandbars only accessible by sea. Multiple operators depart daily from Port Lucaya Marina.</p>
+                <div class="card-meta" style="flex-wrap:wrap; gap:10px; margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Port Lucaya Marina</span>
+                  <span><i class="fas fa-clock"></i> Daily tours</span>
+                  <span><i class="fas fa-ticket-alt"></i> Half/Full Day</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-ship"></i> What's Available</h4>
+                <ul>
+                  <li>🚤 Private charter boats</li>
+                  <li>🏝️ Uninhabited cay visits</li>
+                  <li>🤿 Snorkel stops included</li>
+                  <li>🐠 Coral reef exploration</li>
+                  <li>🌊 Glass-bottom boat tours</li>
+                  <li>🗺️ Custom itineraries</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card banana-bay-card garden-activity-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/cb/93/33/caption.jpg" alt="Garden of the Groves" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/be/aa/6c/the-labyrinth.jpg" alt="The Labyrinth" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/2e/4d/31/beautiful-scenic-shots.jpg" alt="Scenic Views" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/a2/08/d1/caption.jpg" alt="Garden of the Groves" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/08/4c/a4/caption.jpg" alt="Garden of the Groves" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('garden-activity-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('garden-activity-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="ga-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
+                  <span class="card-tag">Nature &amp; Gardens</span>
+                  <span style="background:#e8f4fd; color:#1a6fa8; font-size:0.78rem; font-weight:700; padding:4px 12px; border-radius:50px;">⭐ 4.1 · #1 Attraction in Freeport</span>
+                </div>
+                <h3>Garden of the Groves</h3>
+                <p>Stroll through 12 acres of lush botanical gardens filled with native plants, tropical wildlife, waterfalls, and a peaceful labyrinth. The #1 rated attraction in Freeport on TripAdvisor — perfect for a relaxed morning walk followed by cocktails at the Garden Café.</p>
+                <div class="card-meta" style="flex-wrap:wrap; gap:10px; margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Magellan &amp; Midshipman Dr, Freeport</span>
+                  <span><i class="fas fa-clock"></i> Daily 9am–4pm</span>
+                  <span><i class="fas fa-ticket-alt"></i> $17 entry</span>
+                  <span><i class="fas fa-phone"></i> +1 242-374-7778</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-leaf"></i> Highlights</h4>
+                <ul>
+                  <li>🦋 Birds, butterflies &amp; turtles</li>
+                  <li>💧 Waterfall &amp; labyrinth</li>
+                  <li>⛪ On-site chapel</li>
+                  <li>🍹 Garden Café &amp; bar</li>
+                  <li>🛍️ Straw market</li>
+                  <li>🌺 Guided tours available</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card banana-bay-card gold-rock-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/32/a3/1a/gold-rock-beach.jpg" alt="Gold Rock Beach" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/bb/d1/7b/caption.jpg" alt="Gold Rock Beach" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/69/52/88/i-love-the-ripples-in.jpg" alt="Gold Rock Beach Ripples" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/68/c6/b5/caption.jpg" alt="Gold Rock Beach" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/68/c6/b4/caption.jpg" alt="Gold Rock Beach" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/68/c6/b3/caption.jpg" alt="Gold Rock Beach" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('gold-rock-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('gold-rock-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="gr-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
+                  <span class="card-tag">Beach</span>
+                  <span style="background:#e8f4fd; color:#1a6fa8; font-size:0.78rem; font-weight:700; padding:4px 12px; border-radius:50px;">⭐ 4.5 · #2 on Grand Bahama Island</span>
+                </div>
+                <h3>Gold Rock Beach</h3>
+                <p>Frequently listed among the most beautiful beaches in the world. Part of Lucayan National Park, Gold Rock Beach features dramatic low-tide sandbars, crystal-clear turquoise water, and powdery white sand in total seclusion. A filming location for Pirates of the Caribbean.</p>
+                <div class="card-meta" style="flex-wrap:wrap; gap:10px; margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Lucayan National Park, East Grand Bahama</span>
+                  <span><i class="fas fa-clock"></i> Daily access</span>
+                  <span><i class="fas fa-ticket-alt"></i> Adults $11, Children $6</span>
+                  <span><i class="fas fa-phone"></i> +1 242-352-5438</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-umbrella-beach"></i> Highlights</h4>
+                <ul>
+                  <li>🏖️ World-class white sand beach</li>
+                  <li>🌊 Crystal-clear turquoise water</li>
+                  <li>⭐ Filming location - Pirates of the Caribbean</li>
+                  <li>🦀 Starfish &amp; shells at low tide</li>
+                  <li>🌴 Total seclusion &amp; tranquility</li>
+                  <li>🐚 Limestone cave system nearby</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card banana-bay-card lucayan-activity-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/bb/d1/7b/caption.jpg" alt="Lucayan National Park" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/68/c6/b7/caption.jpg" alt="Lucayan National Park" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/68/c6/b6/caption.jpg" alt="Lucayan National Park" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/68/c6/b1/caption.jpg" alt="Lucayan National Park" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/32/a3/1a/gold-rock-beach.jpg" alt="Gold Rock Beach" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('lucayan-activity-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('lucayan-activity-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="la-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
+                  <span class="card-tag">National Park</span>
+                  <span style="background:#e8f4fd; color:#1a6fa8; font-size:0.78rem; font-weight:700; padding:4px 12px; border-radius:50px;">⭐ 4.5 · #2 on Grand Bahama Island</span>
+                </div>
+                <h3>Lucayan National Park</h3>
+                <p>Explore one of the world's longest charted underwater cave systems at Lucayan National Park. With 40 acres of diverse ecosystems including Ben's Cave, mangrove boardwalks, and the stunning Gold Rock Beach, this park is a must-visit natural treasure.</p>
+                <div class="card-meta" style="flex-wrap:wrap; gap:10px; margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Grand Bahama Highway (25 miles east of Freeport)</span>
+                  <span><i class="fas fa-clock"></i> Daily access</span>
+                  <span><i class="fas fa-ticket-alt"></i> Adults $11, Children $6</span>
+                  <span><i class="fas fa-phone"></i> +1 242-352-5438</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-tree"></i> Highlights</h4>
+                <ul>
+                  <li>🗺️ World's longest underwater cave system</li>
+                  <li>🌊 Gold Rock Beach access</li>
+                  <li>🌿 Mangrove boardwalk trails</li>
+                  <li>🐚 Ben's Cave &amp; Burial Mound Cave</li>
+                  <li>🦀 Marine life &amp; starfish</li>
+                  <li>🎬 Pirates of the Caribbean filming location</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card banana-bay-card pirates-cove-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="Photos/Pirates cove/unnamed sign.jpg" alt="Pirates Cove Sign" /></div>
+              <div class="bb-slide"><img src="Photos/Pirates cove/424255-img3.webp" alt="Pirates Cove" /></div>
+              <div class="bb-slide"><img src="Photos/Pirates cove/424255-img9.webp" alt="Pirates Cove Beach" /></div>
+              <div class="bb-slide"><img src="Photos/Pirates cove/zip.jpg" alt="Zip Line" /></div>
+              <div class="bb-slide"><img src="Photos/Pirates cove/ziplline.jpg" alt="Zip Lining" /></div>
+              <div class="bb-slide"><img src="Photos/Pirates cove/swing.jpg" alt="Rope Swing" /></div>
+              <div class="bb-slide"><img src="Photos/Pirates cove/conch salad.jpg" alt="Fresh Conch Salad" /></div>
+              <div class="bb-slide"><img src="Photos/Pirates cove/Frame-19-1.png.webp" alt="Pirates Cove Activity" /></div>
+              <div class="bb-slide"><img src="Photos/Pirates cove/Frame-21-1.png.webp" alt="Pirates Cove" /></div>
+              <div class="bb-slide"><img src="Photos/Pirates cove/Frame-35.png.webp" alt="Pirates Cove" /></div>
+              <div class="bb-slide"><img src="Photos/Pirates cove/spa-and-massage-pretty-woman-in-spa-salon-in-sunny-beach-get-face-and-back-massage-high-quality-.jpg.webp" alt="Beachside Massage" /></div>
+              <div class="bb-slide"><img src="Photos/Pirates cove/jack sparrow.jpg" alt="Pirates Cove Fun" /></div>
+              <div class="bb-slide"><img src="Photos/Pirates cove/unnamed.jpg" alt="Pirates Cove" /></div>
+              <div class="bb-slide"><img src="Photos/Pirates cove/unnamed 2.jpg" alt="Pirates Cove" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('pirates-cove-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('pirates-cove-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="pc-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <span class="card-tag">Beach Activity</span>
+                <h3>Pirates Cove</h3>
+                <p>Grand Bahama's ultimate beach adventure destination! Pirates Cove packs an incredible lineup of activities all in one spot — from heart-pumping zip lines and the Wibit inflatable water park to relaxing beachside massages and fresh conch salad. A must-visit for guests of all ages staying at Ellie's Place.</p>
+                <div class="card-meta" style="margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Grand Bahama Island</span>
+                  <span><i class="fas fa-clock"></i> Open Daily</span>
+                  <span><i class="fas fa-star"></i> Must Visit!</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-flag"></i> Activities Available</h4>
+                <ul>
+                  <li>🤿 Zip Line over the water</li>
+                  <li>🌊 Wibit Inflatable Water Park</li>
+                  <li>🛥️ Jet Ski rentals</li>
+                  <li>💆 Beachside Spa & Massage</li>
+                  <li>🐚 Fresh Conch Salad bar</li>
+                  <li>🥥 Coconut Drinks & Ice Cream</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo"><img src="Photos/Logo/ellies-place-logo.png" alt="Ellie's Place" class="nav-logo-img" /></div>
+          <p>Luxury short & long term rentals in the heart of Freeport, Grand Bahama Island, Bahamas.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#properties">Properties</a></li>
+            <li><a href="index.html#contact">Book Now</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="restaurants.html">Dining</a></li>
+            <li><a href="nightlife.html">Nightlife</a></li>
+            <li><a href="attractions.html">Attractions</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Contact</h4>
+          <ul>
+            <li><i class="fas fa-map-marker-alt"></i> Freeport, Grand Bahama</li>
+            <li><i class="fas fa-phone"></i> +1 (242) 000-0000</li>
+            <li><i class="fas fa-envelope"></i> info@elliesplace.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Ellie's Place. All rights reserved. | Freeport, Grand Bahama, Bahamas</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

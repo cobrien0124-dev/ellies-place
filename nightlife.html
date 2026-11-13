@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nightlife | Ellie's Place — Freeport, Grand Bahama</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar scrolled" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="Photos/Logo/ellies-place-logo.png" alt="Ellie's Place" class="nav-logo-img" />
+      </a>
+      <button class="nav-toggle" id="navToggle"><i class="fas fa-bars"></i></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="restaurants.html">Dining</a></li>
+        <li><a href="nightlife.html" class="active">Nightlife</a></li>
+        <li><a href="attractions.html">Attractions</a></li>
+        <li><a href="index.html#contact" class="nav-cta">Book Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="page-hero-content">
+      <span class="section-badge">Freeport, Grand Bahama</span>
+      <h1>Nightlife</h1>
+      <p>Live music, cocktails, dancing, and unforgettable Bahamian nights</p>
+    </div>
+  </section>
+
+  <!-- Nightlife -->
+  <section class="cards-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">After Dark</span>
+        <h2>Best Nightlife in Freeport</h2>
+        <p>When the sun goes down, the fun is just getting started in Grand Bahama</p>
+      </div>
+      <div class="cards-grid">
+
+        <!-- Count Basie Square -->
+        <div class="card banana-bay-card count-basie-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/77/d6/51/count-basie-square.jpg" alt="Count Basie Square" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/77/d6/4d/count-basie-square.jpg" alt="Count Basie Square Live Music" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/57/c2/54/caption.jpg" alt="Count Basie Square Band" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/57/c2/53/caption.jpg" alt="Count Basie Square Night" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/1f/70/47/photo0jpg.jpg" alt="Count Basie Square" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/b6/65/22/photo0jpg.jpg" alt="Count Basie Square Crowd" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/78/3a/03/divertente.jpg" alt="Count Basie Square Entertainment" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('count-basie-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('count-basie-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="cb-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
+                  <span class="card-tag">Live Music</span>
+                  <span style="background:#e8f4fd; color:#1a6fa8; font-size:0.78rem; font-weight:700; padding:4px 12px; border-radius:50px;">⭐ Top Nightlife Spot</span>
+                </div>
+                <h3>Count Basie Square</h3>
+                <p>The heartbeat of Freeport nightlife. This iconic open-air stage at Port Lucaya Marketplace comes alive nightly with live Bahamian bands, rake & scrape music, goombay drumming, and impromptu dancing. Named after the jazz legend who lived in the Bahamas, this is where locals and visitors come together under the stars.</p>
+                <div class="card-meta" style="flex-wrap:wrap; gap:10px; margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Port Lucaya Marketplace, Sea Horse Road</span>
+                  <span><i class="fas fa-clock"></i> Nightly from 9pm</span>
+                  <span><i class="fas fa-dollar-sign"></i> Free admission</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-music"></i> What to Expect</h4>
+                <ul>
+                  <li>🎶 Live Bahamian bands nightly</li>
+                  <li>🥁 Rake & scrape folk music</li>
+                  <li>💃 Open-air dancing</li>
+                  <li>🍹 Bars & restaurants surround the square</li>
+                  <li>🌟 Free admission</li>
+                  <li>🌴 Tropical open-air atmosphere</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Rum Runners Bar -->
+        <div class="card banana-bay-card rum-runners-nightlife-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/e7/63/ac/photo0jpg.jpg" alt="Rum Runners Bar" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/37/d8/92/rum-runners.jpg" alt="Rum Runners" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/f3/16/7e/best-pina-colada-i-ve.jpg" alt="Rum Runners Pina Colada" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/66/34/6c/liquid-marijuana-at-t_r.jpg" alt="Rum Runners Cocktail" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/62/af/d2/rum-runners.jpg" alt="Rum Runners Exterior" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/d0/26/05/rum-runners.jpg" alt="Rum Runners Interior" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/26/f5/5d/caption.jpg" alt="Rum Runners Night" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('rum-runners-nightlife-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('rum-runners-nightlife-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="rrn-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
+                  <span class="card-tag">Bar & Lounge</span>
+                  <span style="background:#e8f4fd; color:#1a6fa8; font-size:0.78rem; font-weight:700; padding:4px 12px; border-radius:50px;">⭐ 4.4 · Icon of Port Lucaya</span>
+                </div>
+                <h3>Rum Runners</h3>
+                <p>Freeport's most iconic bar — walls literally covered in dollar bills from around the world. A Port Lucaya institution since the '80s, Rum Runners is famous for its impossibly strong tropical cocktails, BOGO happy hour, and legendary Liquid Marijuana. The perfect place to start (or end) your night.</p>
+                <div class="card-meta" style="flex-wrap:wrap; gap:10px; margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Port Lucaya Marketplace</span>
+                  <span><i class="fas fa-clock"></i> Daily 9am–midnight</span>
+                  <span><i class="fas fa-dollar-sign"></i> $ · Happy hour 4–7pm</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-cocktail"></i> Signature Drinks</h4>
+                <ul>
+                  <li>🍹 Rum Runner (the original)</li>
+                  <li>🌿 Liquid Marijuana</li>
+                  <li>🍦 Miami Vice</li>
+                  <li>🎉 BOGO Happy Hour 4–7pm</li>
+                  <li>💵 Famous dollar-bill walls</li>
+                  <li>🌊 Waterfront outdoor seating</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Taino Beach Bar -->
+        <div class="card banana-bay-card taino-beach-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/e0/ce/98/junkanoo-beach-club-freeport.jpg" alt="Taino Beach Bar" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/e0/ce/5f/junkanoo-beach-club-freeport.jpg" alt="Taino Beach Club" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/1a/58/27/caption.jpg" alt="Taino Beach" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/1a/58/26/caption.jpg" alt="Taino Beach Bar View" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/b9/8b/db/caption.jpg" alt="Taino Beach Ocean" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/96/4e/09/paradiso-in-terra.jpg" alt="Taino Beach Paradise" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/96/4d/fc/paradiso-in-terra.jpg" alt="Taino Beach Sunset" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('taino-beach-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('taino-beach-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="tb-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
+                  <span class="card-tag">Beach Bar</span>
+                  <span style="background:#e8f4fd; color:#1a6fa8; font-size:0.78rem; font-weight:700; padding:4px 12px; border-radius:50px;">⭐ Local Favourite</span>
+                </div>
+                <h3>Taino Beach Bar</h3>
+                <p>A laid-back paradise where you can sip cocktails with your toes in the white sand. Taino Beach's bar scene comes alive on weekends with live music, cool cocktails, and the most spectacular ocean views on the island. The ultimate chill-out spot.</p>
+                <div class="card-meta" style="flex-wrap:wrap; gap:10px; margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Taino Beach, Grand Bahama</span>
+                  <span><i class="fas fa-clock"></i> Daily · Live music weekends</span>
+                  <span><i class="fas fa-dollar-sign"></i> $</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-umbrella-beach"></i> Beach Bar Life</h4>
+                <ul>
+                  <li>🌊 Feet-in-the-sand drinking</li>
+                  <li>🎵 Live music on weekends</li>
+                  <li>🍹 Frozen cocktails & Kalik beers</li>
+                  <li>🌅 Spectacular ocean sunsets</li>
+                  <li>🐚 Fresh conch snacks nearby</li>
+                  <li>🏊 Swimming right off the beach</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Junkanoo Festival -->
+        <div class="card banana-bay-card junkanoo-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/61/9e/8b/junkanoo-float-part.jpg" alt="Junkanoo Festival Float" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/61/9e/7b/our-junkanoo-historian.jpg" alt="Junkanoo Historian" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/61/9e/78/junkanoo-museum-car.jpg" alt="Junkanoo Costume Car" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/e3/ff/8e/photo0jpg.jpg" alt="Junkanoo Museum" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/d3/8e/69/20160628-100428-largejpg.jpg" alt="Junkanoo Costumes" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/d3/8e/68/20160628-100521-largejpg.jpg" alt="Junkanoo Display" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('junkanoo-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('junkanoo-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="jk-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
+                  <span class="card-tag">Cultural Festival</span>
+                  <span style="background:#e8f4fd; color:#1a6fa8; font-size:0.78rem; font-weight:700; padding:4px 12px; border-radius:50px;">🇧🇸 Must-See Bahamian Tradition</span>
+                </div>
+                <h3>Junkanoo Festival</h3>
+                <p>The ultimate Bahamian celebration! Held annually on Boxing Day (Dec 26) and New Year's Day, Junkanoo transforms the streets with elaborate handcrafted costumes, goombay drums, cowbells, and dancers in a dazzling all-night parade. The Bahamas' most spectacular cultural event.</p>
+                <div class="card-meta" style="flex-wrap:wrap; gap:10px; margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Downtown Freeport</span>
+                  <span><i class="fas fa-clock"></i> Dec 26 & Jan 1 · from midnight</span>
+                  <span><i class="fas fa-dollar-sign"></i> Free to watch</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-drum"></i> Junkanoo Experience</h4>
+                <ul>
+                  <li>🥁 Goombay drums & cowbells</li>
+                  <li>🎨 Elaborate handmade costumes</li>
+                  <li>💃 Street parade & dancing</li>
+                  <li>🌙 All-night celebration</li>
+                  <li>🏆 Competition between groups</li>
+                  <li>🇧🇸 Most iconic Bahamian tradition</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Level Nightclub -->
+        <div class="card">
+          <div class="card-img" style="background: linear-gradient(135deg, #5BB8B8, #1A2B3C); display:flex; align-items:center; justify-content:center; font-size:4rem;">💃</div>
+          <div class="card-body">
+            <span class="card-tag">Nightclub</span>
+            <h3>Level Nightclub</h3>
+            <p>Freeport's hottest nightclub. DJ sets, dancing, and a full bar — the place to be for a late-night experience with locals and visitors alike. Opens 10pm.</p>
+            <div class="card-meta">
+              <span><i class="fas fa-map-marker-alt"></i> Freeport Downtown</span>
+              <span><i class="fas fa-clock"></i> Thu–Sat, 10pm–3am</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Island Seas Casino -->
+        <div class="card">
+          <div class="card-img" style="background: linear-gradient(135deg, #C9A84C, #1A2B3C); display:flex; align-items:center; justify-content:center; font-size:4rem;">🎰</div>
+          <div class="card-body">
+            <span class="card-tag">Casino</span>
+            <h3>Island Seas Casino</h3>
+            <p>Try your luck at one of Grand Bahama's local casinos. Slot machines, table games, and a lively bar make for a great evening out with friends.</p>
+            <div class="card-meta">
+              <span><i class="fas fa-map-marker-alt"></i> Freeport</span>
+              <span><i class="fas fa-clock"></i> Open late nightly</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Prop Club -->
+        <div class="card">
+          <div class="card-img" style="background: linear-gradient(135deg, #C9A84C, #7ECECA); display:flex; align-items:center; justify-content:center; font-size:4rem;">🥂</div>
+          <div class="card-body">
+            <span class="card-tag">Lounge</span>
+            <h3>Prop Club</h3>
+            <p>A popular gathering spot with a classic bar atmosphere. Pool tables, great drinks, and friendly regulars make this one of the most welcoming spots in Freeport.</p>
+            <div class="card-meta">
+              <span><i class="fas fa-map-marker-alt"></i> Grand Lucayan Resort</span>
+              <span><i class="fas fa-clock"></i> Nightly from 7pm</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Rake & Scrape -->
+        <div class="card">
+          <div class="card-img" style="background: linear-gradient(135deg, #5BB8B8, #C9A84C); display:flex; align-items:center; justify-content:center; font-size:4rem;">🎸</div>
+          <div class="card-body">
+            <span class="card-tag">Live Music</span>
+            <h3>Local Rake & Scrape Bands</h3>
+            <p>Traditional Bahamian folk music played with saws, goombay drums, and accordions. Found at local bars and restaurants — an authentic cultural experience you can't miss.</p>
+            <div class="card-meta">
+              <span><i class="fas fa-map-marker-alt"></i> Port Lucaya Area</span>
+              <span><i class="fas fa-star"></i> Authentic Experience</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo"><img src="Photos/Logo/ellies-place-logo.png" alt="Ellie's Place" class="nav-logo-img" /></div>
+          <p>Luxury short & long term rentals in the heart of Freeport, Grand Bahama Island, Bahamas.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#properties">Properties</a></li>
+            <li><a href="index.html#contact">Book Now</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="restaurants.html">Dining</a></li>
+            <li><a href="nightlife.html">Nightlife</a></li>
+            <li><a href="attractions.html">Attractions</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Contact</h4>
+          <ul>
+            <li><i class="fas fa-map-marker-alt"></i> Freeport, Grand Bahama</li>
+            <li><i class="fas fa-phone"></i> +1 (242) 000-0000</li>
+            <li><i class="fas fa-envelope"></i> info@elliesplace.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Ellie's Place. All rights reserved. | Freeport, Grand Bahama, Bahamas</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

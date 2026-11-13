@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dining | Ellie's Place — Freeport, Grand Bahama</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar scrolled" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="Photos/Logo/ellies-place-logo.png" alt="Ellie's Place" class="nav-logo-img" />
+      </a>
+      <button class="nav-toggle" id="navToggle"><i class="fas fa-bars"></i></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="restaurants.html" class="active">Dining</a></li>
+        <li><a href="nightlife.html">Nightlife</a></li>
+        <li><a href="attractions.html">Attractions</a></li>
+        <li><a href="index.html#contact" class="nav-cta">Book Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="page-hero-content">
+      <span class="section-badge">Freeport, Grand Bahama</span>
+      <h1>Dining & Food</h1>
+      <p>From fresh seafood to local Bahamian flavors — eat your way through paradise</p>
+    </div>
+  </section>
+
+  <!-- Restaurants -->
+  <section class="cards-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Eat & Drink</span>
+        <h2>Best Restaurants Near You</h2>
+        <p>Discover the best places to eat in Freeport and Grand Bahama Island</p>
+      </div>
+      <div class="cards-grid">
+
+        <div class="card banana-bay-card zorbas-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="Photos/Zorbas/zorba-s-greek-restaurant.jpg" alt="Zorba's Restaurant" /></div>
+              <div class="bb-slide"><img src="Photos/Zorbas/zorba-s-greek-restaurant 2.jpg" alt="Zorba's" /></div>
+              <div class="bb-slide"><img src="Photos/Zorbas/zorba-s-greek-restaurant 3.jpg" alt="Zorba's" /></div>
+              <div class="bb-slide"><img src="Photos/Zorbas/zorba-s-greek-restaurant 4.jpg" alt="Zorba's" /></div>
+              <div class="bb-slide"><img src="Photos/Zorbas/zorba-s-greek-restaurant 7.jpg" alt="Zorba's" /></div>
+              <div class="bb-slide"><img src="Photos/Zorbas/zorba-s-greek-restaurant 9.jpg" alt="Zorba's" /></div>
+              <div class="bb-slide"><img src="Photos/Zorbas/zorba-s-crack-conch-and.jpg" alt="Cracked Conch" /></div>
+              <div class="bb-slide"><img src="Photos/Zorbas/coconut-shrimp-rice-and.jpg" alt="Coconut Shrimp" /></div>
+              <div class="bb-slide"><img src="Photos/Zorbas/conch-chowder.jpg" alt="Conch Chowder" /></div>
+              <div class="bb-slide"><img src="Photos/Zorbas/conch-stew-and-greek.jpg" alt="Conch Stew" /></div>
+              <div class="bb-slide"><img src="Photos/Zorbas/restaurant.jpg" alt="Zorba's Interior" /></div>
+              <div class="bb-slide"><img src="Photos/Zorbas/photo0jpg.jpg" alt="Zorba's Food" /></div>
+              <div class="bb-slide"><img src="Photos/Zorbas/photo1jpg.jpg" alt="Zorba's Food" /></div>
+              <div class="bb-slide"><img src="Photos/Zorbas/photo2jpg.jpg" alt="Zorba's Food" /></div>
+              <div class="bb-slide"><img src="Photos/Zorbas/elairs.jpg" alt="Zorba's Dessert" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('zorbas-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('zorbas-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="zb-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <span class="card-tag">Greek-Bahamian Seafood</span>
+                <h3>Zorba's Restaurant</h3>
+                <p>A Freeport institution and family favourite since the 1970s! Located right in Port Lucaya Marketplace, Zorba's blends authentic Greek recipes with the freshest local Bahamian seafood. Known for their legendary cracked conch, conch chowder, coconut shrimp, and Greek-inspired dishes served in a relaxed, welcoming atmosphere.</p>
+                <div class="card-meta" style="margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Port Lucaya Marketplace</span>
+                  <span><i class="fas fa-dollar-sign"></i> $$</span>
+                  <span><i class="fas fa-utensils"></i> Dine-in & Takeout</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-star"></i> Fan Favourites</h4>
+                <ul>
+                  <li>🐚 Cracked Conch</li>
+                  <li>🍲 Conch Chowder & Conch Stew</li>
+                  <li>🍤 Coconut Shrimp with Rice</li>
+                  <li>🐟 Fresh Local Fish</li>
+                  <li>🥗 Greek Salad</li>
+                  <li>🍮 Homemade Desserts</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card banana-bay-card beckys-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active" style="background:linear-gradient(135deg,#1A2B3C,#7ECECA);display:flex;align-items:center;justify-content:center;font-size:8rem;min-height:380px;">🍽️</div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('beckys-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('beckys-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="bk-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
+                  <span class="card-tag">Authentic Bahamian</span>
+                </div>
+                <h3>Becky's Restaurant</h3>
+                <p>A true Freeport institution beloved by locals for decades. Becky's serves authentic Out-Islands Bahamian cuisine — minced lobster, curried mutton, fish platters, baked chicken, conch salad, and legendary all-day Bahamian breakfasts. Away from the tourist strip, this is where locals eat.</p>
+                <div class="card-meta" style="flex-wrap:wrap; gap:10px; margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Sunrise Highway & East Beach Drive, Freeport</span>
+                  <span><i class="fas fa-dollar-sign"></i> $ Budget</span>
+                  <span><i class="fas fa-phone"></i> +1 242-352-5247</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-utensils"></i> Local Favourites</h4>
+                <ul>
+                  <li>🦞 Minced lobster</li>
+                  <li>🐑 Curried mutton</li>
+                  <li>🐟 Fresh fish platters</li>
+                  <li>🍳 All-day Bahamian breakfast</li>
+                  <li>🐚 Fresh conch salad</li>
+                  <li>🍗 Baked & curried chicken</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card banana-bay-card churchills-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/8a/b1/de/churchills--v11472797.jpg" alt="Churchill's Chophouse" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/8a/b1/e0/churchills--v11473252.jpg" alt="Churchill's Chophouse Interior" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('churchills-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('churchills-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="ch-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
+                  <span class="card-tag">Fine Dining / Steakhouse</span>
+                </div>
+                <h3>Churchill's Chophouse</h3>
+                <p>Freeport's most elegant dining experience, set within the Grand Lucayan resort with old-world English charm. Featuring a wood piano bar, chandeliers, and murals depicting Bahamian life, Churchill's is renowned for its signature Prime Rib, lobster risotto, and veal marsala. Reservations required.</p>
+                <div class="card-meta" style="flex-wrap:wrap; gap:10px; margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Grand Lucayan Resort, Sea Horse Road</span>
+                  <span><i class="fas fa-clock"></i> Thu–Sat 6pm–10pm</span>
+                  <span><i class="fas fa-dollar-sign"></i> $$$ Fine Dining</span>
+                  <span><i class="fas fa-phone"></i> +1 242-373-1333</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-award"></i> Signature Experience</h4>
+                <ul>
+                  <li>🥩 Signature Prime Rib</li>
+                  <li>🦞 Lobster & wild mushroom risotto</li>
+                  <li>🎹 Live piano bar</li>
+                  <li>🍝 Customizable pasta</li>
+                  <li>🍷 Extensive wine list</li>
+                  <li>👔 Smart casual dress required</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card banana-bay-card rum-runners-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/e7/63/ac/photo0jpg.jpg" alt="Rum Runners" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/62/af/d2/rum-runners.jpg" alt="Rum Runners" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/62/af/d1/rum-runners.jpg" alt="Rum Runners" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/52/c3/43/rum-runners.jpg" alt="Rum Runners" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/d0/26/05/rum-runners.jpg" alt="Rum Runners" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/f3/16/7e/best-pina-colada-i-ve.jpg" alt="Rum Runners Pina Colada" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('rum-runners-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('rum-runners-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="rr-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
+                  <span class="card-tag">Bar & Casual Dining</span>
+                  <span style="background:#e8f4fd; color:#1a6fa8; font-size:0.78rem; font-weight:700; padding:4px 12px; border-radius:50px;">⭐ 4.4 · #4 Restaurant in Freeport</span>
+                </div>
+                <h3>Rum Runners</h3>
+                <p>An iconic Freeport landmark with walls covered in dollar bills from around the world! Rum Runners at Port Lucaya Marketplace is famous for its strong tropical cocktails, happy hour BOGO deals, and laid-back island atmosphere. The perfect spot to kick off your evening.</p>
+                <div class="card-meta" style="flex-wrap:wrap; gap:10px; margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Sea Horse Road, Port Lucaya Marketplace</span>
+                  <span><i class="fas fa-clock"></i> Daily 9am–midnight</span>
+                  <span><i class="fas fa-dollar-sign"></i> $</span>
+                  <span><i class="fas fa-phone"></i> +1 242-373-7233</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-cocktail"></i> Why You'll Love It</h4>
+                <ul>
+                  <li>🍹 Signature Rum Runner cocktail</li>
+                  <li>🍸 Liquid Marijuana & Miami Vice</li>
+                  <li>🎉 Happy hour BOGO 4–7pm</li>
+                  <li>🍗 $1 wings & conch fritters</li>
+                  <li>💵 Famous dollar-bill covered walls</li>
+                  <li>🌴 Outdoor waterfront seating</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card banana-bay-card conch-world-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/94/8c/68/da-conch-man.jpg" alt="Fresh Conch Salad" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/c4/63/54/browns-conch-salad.jpg" alt="Conch Salad" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/c4/82/06/big-daddy-brown-s-conch.jpg" alt="Conch Stand" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/aa/69/0b/big-daddy-brown-s-conch.jpg" alt="Conch Salad Fresh" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/05/23/2b/fried-conch-and-fritters.jpg" alt="Fried Conch and Fritters" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/43/9f/78/caption.jpg" alt="Conch World" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('conch-world-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('conch-world-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="cw-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
+                  <span class="card-tag">Local Favorite</span>
+                </div>
+                <h3>Conch World</h3>
+                <p>The freshest conch salad in the Bahamas — prepared right in front of you! Watch as skilled hands crack, clean, and season fresh conch with onions, peppers, citrus, and hot sauce. A quintessential Bahamian street food experience you absolutely cannot miss.</p>
+                <div class="card-meta" style="flex-wrap:wrap; gap:10px; margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Freeport Area</span>
+                  <span><i class="fas fa-dollar-sign"></i> $</span>
+                  <span><i class="fas fa-star"></i> Must Try!</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-fish"></i> The Experience</h4>
+                <ul>
+                  <li>🐚 Fresh cracked conch salad</li>
+                  <li>👀 Prepared live in front of you</li>
+                  <li>🌶️ Seasoned to order</li>
+                  <li>🍋 Fresh citrus & hot sauce</li>
+                  <li>🥇 Quintessential Bahamian experience</li>
+                  <li>💚 Healthy & delicious</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img" style="background: linear-gradient(135deg, #7ECECA, #C9A84C); display:flex; align-items:center; justify-content:center; font-size:4rem;">☕</div>
+          <div class="card-body">
+            <span class="card-tag">Café</span>
+            <h3>Garden Café at the Garden of the Groves</h3>
+            <p>Dine surrounded by tropical nature at Freeport's #1 rated attraction. The Garden Café offers cocktails, light meals, and refreshments inside the stunning 12-acre botanical gardens — a truly unique dining experience.</p>
+            <div class="card-meta">
+              <span><i class="fas fa-map-marker-alt"></i> Magellan & Midshipman Dr, Freeport</span>
+              <span><i class="fas fa-clock"></i> Daily 9am–4pm</span>
+              <span><i class="fas fa-dollar-sign"></i> $$</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card banana-bay-card pisces-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/98/08/e2/photo0jpg.jpg" alt="Pisces Restaurant" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/39/9b/0b/photo2jpg.jpg" alt="Pisces Restaurant" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/f3/1f/e7/caption.jpg" alt="Pisces Restaurant" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/59/67/9c/pisces-seafood-house.jpg" alt="Pisces Seafood House" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/ee/6f/7b/pisces-seafood-house.jpg" alt="Pisces Seafood House" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/c1/20/7f/pisces-seafood-house.jpg" alt="Pisces Seafood House" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('pisces-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('pisces-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="ps-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
+                  <span class="card-tag">Seafood & Pizza</span>
+                  <span style="background:#e8f4fd; color:#1a6fa8; font-size:0.78rem; font-weight:700; padding:4px 12px; border-radius:50px;">⭐ 4.1 · #12 Restaurant in Freeport</span>
+                </div>
+                <h3>Pisces Restaurant</h3>
+                <p>A Freeport favourite since 1980! Pisces is a dockside gem at the Grand Bahama Yacht Club marina, known for its legendary King Neptune Pizza loaded with lobster, crab, and shrimp. Enjoy outdoor covered seating overlooking the marina with a full bar and late-night dining.</p>
+                <div class="card-meta" style="flex-wrap:wrap; gap:10px; margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Grand Bahama Yacht Club, Midshipman Rd, Port Lucaya</span>
+                  <span><i class="fas fa-clock"></i> Mon–Sat 4pm–midnight</span>
+                  <span><i class="fas fa-dollar-sign"></i> $$</span>
+                  <span><i class="fas fa-phone"></i> +1 242-373-5192</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-pizza-slice"></i> Must-Try Dishes</h4>
+                <ul>
+                  <li>🍕 King Neptune Pizza (lobster/crab/shrimp)</li>
+                  <li>🐠 Conch pizza & seafood curry</li>
+                  <li>🦞 Lobster bacon mac & cheese</li>
+                  <li>⚓ Marina waterfront seating</li>
+                  <li>🌙 Late-night dining</li>
+                  <li>🥗 Vegetarian & vegan options</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card banana-bay-card fish-fry-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-s/02/bd/f3/c9/fish-fry-at-smith-point.jpg" alt="Fish Fry at Smith's Point" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/ad/e7/dd/fish-fry-at-smith-point.jpg" alt="Fish Fry" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/6a/40/b0/fish-fry.jpg" alt="Local Fish Fry" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/6a/40/ae/fish-fry.jpg" alt="Fish Fry Food" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/42/55/22/chicken-is-an-option.jpg" alt="Grilled Chicken at Fish Fry" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/6a/40/ac/fish-fry.jpg" alt="Fish Fry Night" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/6a/40/a6/fish-fry.jpg" alt="Bahamian Fish Fry" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('fish-fry-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('fish-fry-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="ff-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
+                  <span class="card-tag">Local Experience</span>
+                </div>
+                <h3>Local Fish Fry</h3>
+                <p>The most authentic Bahamian dining experience you'll find! Every Friday and Saturday evening, Freeport locals gather for the Fish Fry — grilled snapper, cracked conch, macaroni salad, peas & rice, coleslaw, and cold Kalik beers. This is the real Bahamas.</p>
+                <div class="card-meta" style="flex-wrap:wrap; gap:10px; margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Midway Shopping Center, Freeport</span>
+                  <span><i class="fas fa-clock"></i> Fri & Sat evenings</span>
+                  <span><i class="fas fa-dollar-sign"></i> $ Budget</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-fire"></i> On the Grill</h4>
+                <ul>
+                  <li>🐟 Grilled fresh snapper</li>
+                  <li>🐚 Cracked conch</li>
+                  <li>🍚 Peas & rice</li>
+                  <li>🥗 Macaroni salad</li>
+                  <li>🍺 Cold Kalik beer</li>
+                  <li>🇧🇸 100% authentic Bahamian</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card banana-bay-card sabor-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-s/03/33/5c/c4/sabor-restaurant-bar.jpg" alt="Sabor Restaurant" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/53/4d/57/dinner-and-sunset-beautiful.jpg" alt="Sabor Dinner and Sunset" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/8f/1e/d1/sabor-restaurant-bar.jpg" alt="Sabor Restaurant Bar" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/ad/0a/e9/coconut-curry-grouper.jpg" alt="Coconut Curry Grouper" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/ea/43/10/lots-of-lobster-in-the.jpg" alt="Lobster Dish at Sabor" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/ad/0a/ed/grouper-lightly-fried.jpg" alt="Grouper at Sabor" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/e4/21/8a/sabor-restaurant-bar.jpg" alt="Sabor Restaurant Exterior" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/a5/14/fe/caption.jpg" alt="Sabor Marina View" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('sabor-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('sabor-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="sb-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
+                  <span class="card-tag">Waterfront Fusion</span>
+                  <span style="background:#e8f4fd; color:#1a6fa8; font-size:0.78rem; font-weight:700; padding:4px 12px; border-radius:50px;">⭐ 4.0 · #14 Restaurant in Freeport</span>
+                </div>
+                <h3>Sabor Restaurant</h3>
+                <p>A hidden waterfront treasure set in the gardens of Pelican Bay Hotel at Port Lucaya Marina. Sabor blends Caribbean, Bahamian, and international flavours under swaying palm trees with stunning yacht marina views. Known for Thai coconut curry seafood and lobster mango pasta.</p>
+                <div class="card-meta" style="flex-wrap:wrap; gap:10px; margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Pelican Bay Hotel, Sea Horse Road, Port Lucaya</span>
+                  <span><i class="fas fa-clock"></i> Daily 11:30am–11:30pm</span>
+                  <span><i class="fas fa-dollar-sign"></i> $$–$$$</span>
+                  <span><i class="fas fa-phone"></i> +1 242-373-5588</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-water"></i> Signature Dishes</h4>
+                <ul>
+                  <li>🦞 Lobster mango pasta</li>
+                  <li>🍛 Thai coconut curry seafood</li>
+                  <li>🐚 Fresh conch fritters</li>
+                  <li>🌅 Panoramic marina views</li>
+                  <li>🎵 Live music & full bar</li>
+                  <li>🌿 Vegetarian & gluten-free options</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card banana-bay-card banana-bay-restaurant-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/c7/4e/5d/beautiful-tranquil-location.jpg" alt="Banana Bay Beautiful Location" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/29/f0/76/view-of-veranda-and-beach.jpg" alt="Banana Bay Veranda and Beach" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/9d/97/c8/a-bowl-of-delicious-conch.jpg" alt="Banana Bay Conch Salad" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/1b/1a/59/vegie-burger.jpg" alt="Banana Bay Burger" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/aa/75/e9/caption.jpg" alt="Banana Bay" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/aa/75/e7/caption.jpg" alt="Banana Bay" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/50/20/96/banana-bay.jpg" alt="Banana Bay Restaurant" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/50/20/8e/banana-bay.jpg" alt="Banana Bay" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/27/fd/d4/banana-bay.jpg" alt="Banana Bay" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/4b/43/5a/photo1jpg.jpg" alt="Banana Bay Food" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('banana-bay-restaurant-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('banana-bay-restaurant-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="bb-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <span class="card-tag">Bahamian Seafood</span>
+                <h3>Banana Bay Restaurant</h3>
+                <p>A beloved local gem on Grand Bahama serving authentic Bahamian seafood, cracked conch, lobster spring rolls, fresh grouper cakes, and coconut shrimp. Also featuring certified Black Angus burgers, jerk chicken sandwiches, salads, and classic Bahamian sides like peas & rice and coleslaw. Don't miss their famous Banana Bread!</p>
+                <div class="card-meta" style="margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Freeport, Grand Bahama</span>
+                  <span><i class="fas fa-dollar-sign"></i> $$</span>
+                  <span><i class="fas fa-utensils"></i> Dine-in & Takeout</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-fish"></i> Menu Highlights</h4>
+                <ul>
+                  <li>🐚 Bahamian Conch Fritters — $7.95</li>
+                  <li>🦞 Lobster Spring Rolls — $17.95</li>
+                  <li>🐟 Cracked Conch w/ Peas n' Rice — $15.75</li>
+                  <li>🍤 Coconut Shrimp — $18.95</li>
+                  <li>🍔 Conch Burger — $11.95</li>
+                  <li>🐠 Grouper Cakes with Fries — $16.95</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card banana-bay-card stone-crab-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="Photos/The stone crab /EddyRaphael2024PGH60759%20copy-2@2x.jpg" alt="The Stone Crab Food" /></div>
+              <div class="bb-slide"><img src="Photos/The stone crab /EddyRaphael2024PGH60826%20copy@2x.jpg" alt="The Stone Crab Dish" /></div>
+              <div class="bb-slide"><img src="Photos/The stone crab /EddyRaphael2024PGH61836@2x.jpg" alt="The Stone Crab" /></div>
+              <div class="bb-slide"><img src="Photos/The stone crab /IMG_5117@2x.jpg" alt="The Stone Crab Interior" /></div>
+              <div class="bb-slide"><img src="Photos/The stone crab /IMG_5118-1@2x.jpg" alt="The Stone Crab" /></div>
+              <div class="bb-slide"><img src="Photos/The stone crab /IMG_5119@2x.jpg" alt="The Stone Crab" /></div>
+              <div class="bb-slide"><img src="Photos/The stone crab /bc626d14-3c81-4750-8d7b-67482fc26090@2x.jpg" alt="The Stone Crab" /></div>
+              <div class="bb-slide"><img src="Photos/The stone crab /e6615f49-a0c1-4af4-a203-bb2742706a20.jpg" alt="The Stone Crab" /></div>
+              <div class="bb-slide"><img src="Photos/The stone crab /PGH60807-LORES.jpg" alt="The Stone Crab" /></div>
+              <div class="bb-slide"><img src="Photos/The stone crab /2003234a-b9e1-4ae5-a17d-d8e8c3fa54cf-1.jpg" alt="The Stone Crab" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('stone-crab-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('stone-crab-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="sc-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <span class="card-tag">Upscale Dining</span>
+                <h3>The Stone Crab</h3>
+                <p>A premier dining experience on Grand Bahama Island. The Stone Crab is known for its beautifully crafted dishes, fresh local seafood, and elegant presentation. Perfect for a special evening out or a memorable dinner during your stay at Ellie's Place.</p>
+                <div class="card-meta" style="margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Grand Bahama Island</span>
+                  <span><i class="fas fa-dollar-sign"></i> $$$</span>
+                  <span><i class="fas fa-utensils"></i> Fine Dining</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-award"></i> Why You'll Love It</h4>
+                <ul>
+                  <li>🦀 Fresh local stone crab & seafood</li>
+                  <li>🍽️ Beautifully plated gourmet dishes</li>
+                  <li>🌿 Creative appetizers & starters</li>
+                  <li>🥂 Great for special occasions</li>
+                  <li>🌴 Authentic Bahamian fine dining</li>
+                  <li>📸 Instagram-worthy presentation</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Tip Box -->
+  <section style="padding: 0 0 80px; background: var(--mint-pale);">
+    <div class="container">
+      <div style="background: var(--navy); color: white; border-radius: 20px; padding: 48px; display: grid; grid-template-columns: auto 1fr; gap: 32px; align-items: center;">
+        <div style="font-size: 4rem;">💡</div>
+        <div>
+          <h3 style="color: var(--mint); margin-bottom: 12px; font-size: 1.4rem;">Local Dining Tips</h3>
+          <ul style="color: rgba(255,255,255,0.8); line-height: 2; font-size: 0.95rem;">
+            <li>✅ <strong>Kalik beer</strong> is the local Bahamian brew — try it cold on a hot day</li>
+            <li>✅ <strong>Conch</strong> is the national dish — cracked, salad, or fritters, don't miss it</li>
+            <li>✅ <strong>Friday night fish fry</strong> is the most authentic local dining experience</li>
+            <li>✅ Most restaurants are casual — you can come straight from the beach</li>
+            <li>✅ Port Lucaya Marketplace has over a dozen restaurants in one spot</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo"><img src="Photos/Logo/ellies-place-logo.png" alt="Ellie's Place" class="nav-logo-img" /></div>
+          <p>Luxury short & long term rentals in the heart of Freeport, Grand Bahama Island, Bahamas.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#properties">Properties</a></li>
+            <li><a href="index.html#contact">Book Now</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="restaurants.html">Dining</a></li>
+            <li><a href="nightlife.html">Nightlife</a></li>
+            <li><a href="attractions.html">Attractions</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Contact</h4>
+          <ul>
+            <li><i class="fas fa-map-marker-alt"></i> Freeport, Grand Bahama</li>
+            <li><i class="fas fa-phone"></i> +1 (242) 000-0000</li>
+            <li><i class="fas fa-envelope"></i> info@elliesplace.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Ellie's Place. All rights reserved. | Freeport, Grand Bahama, Bahamas</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Attractions | Ellie's Place — Freeport, Grand Bahama</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar scrolled" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="Photos/Logo/ellies-place-logo.png" alt="Ellie's Place" class="nav-logo-img" />
+      </a>
+      <button class="nav-toggle" id="navToggle"><i class="fas fa-bars"></i></button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="restaurants.html">Dining</a></li>
+        <li><a href="nightlife.html">Nightlife</a></li>
+        <li><a href="attractions.html" class="active">Attractions</a></li>
+        <li><a href="index.html#contact" class="nav-cta">Book Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="page-hero-content">
+      <span class="section-badge">Freeport, Grand Bahama</span>
+      <h1>Top Attractions</h1>
+      <p>Must-see landmarks, beaches, and experiences near Ellie's Place</p>
+    </div>
+  </section>
+
+  <!-- Attractions -->
+  <section class="cards-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Must See</span>
+        <h2>Main Attractions in Grand Bahama</h2>
+        <p>From pristine beaches to cultural landmarks — Grand Bahama has something for everyone</p>
+      </div>
+      <div class="cards-grid">
+
+        <div class="card banana-bay-card gold-rock-attr-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/32/a3/1a/gold-rock-beach.jpg" alt="Gold Rock Beach" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/bb/d1/7b/caption.jpg" alt="Gold Rock Beach" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/01/69/52/88/i-love-the-ripples-in.jpg" alt="Gold Rock Beach Ripples" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/68/c6/b5/caption.jpg" alt="Gold Rock Beach" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/68/c6/b4/caption.jpg" alt="Gold Rock Beach" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/68/c6/b3/caption.jpg" alt="Gold Rock Beach" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('gold-rock-attr-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('gold-rock-attr-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="gra-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
+                  <span class="card-tag">Beach</span>
+                  <span style="background:#e8f4fd; color:#1a6fa8; font-size:0.78rem; font-weight:700; padding:4px 12px; border-radius:50px;">⭐ 4.5 · #2 on Grand Bahama Island</span>
+                </div>
+                <h3>Gold Rock Beach</h3>
+                <p>Frequently listed among the most beautiful beaches in the world. Part of Lucayan National Park, Gold Rock Beach features dramatic low-tide sandbars, crystal-clear turquoise water, and powdery white sand in total seclusion. A filming location for Pirates of the Caribbean.</p>
+                <div class="card-meta" style="flex-wrap:wrap; gap:10px; margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Lucayan National Park, East Grand Bahama</span>
+                  <span><i class="fas fa-clock"></i> Daily access</span>
+                  <span><i class="fas fa-ticket-alt"></i> Adults $11, Children $6</span>
+                  <span><i class="fas fa-phone"></i> +1 242-352-5438</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-umbrella-beach"></i> Highlights</h4>
+                <ul>
+                  <li>🏖️ World-class white sand beach</li>
+                  <li>🌊 Crystal-clear turquoise water</li>
+                  <li>⭐ Filming location - Pirates of the Caribbean</li>
+                  <li>🦀 Starfish &amp; shells at low tide</li>
+                  <li>🌴 Total seclusion &amp; tranquility</li>
+                  <li>🐚 Limestone cave system nearby</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card banana-bay-card port-lucaya-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="Photos/Port lucaya /IMG_2859.JPG" alt="Port Lucaya Marketplace" /></div>
+              <div class="bb-slide"><img src="Photos/Port lucaya /IMG_2860.JPG" alt="Port Lucaya" /></div>
+              <div class="bb-slide"><img src="Photos/Port lucaya /IMG_2861.JPG" alt="Port Lucaya" /></div>
+              <div class="bb-slide"><img src="Photos/Port lucaya /IMG_2862.JPG" alt="Port Lucaya" /></div>
+              <div class="bb-slide"><img src="Photos/Port lucaya /JPEG image.jpeg" alt="Port Lucaya" /></div>
+              <div class="bb-slide"><img src="Photos/Port lucaya /JPEG image 2.jpeg" alt="Port Lucaya" /></div>
+              <div class="bb-slide"><img src="Photos/Port lucaya /Shared Image.png" alt="Port Lucaya Marketplace" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('port-lucaya-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('port-lucaya-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="pl-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <span class="card-tag">Shopping & Entertainment</span>
+                <h3>Port Lucaya Marketplace</h3>
+                <p>The social heart of Freeport! Port Lucaya Marketplace is a vibrant waterfront hub packed with boutique shops, restaurants, bars, and live entertainment. By day it's great for shopping souvenirs and local crafts; by night it comes alive with music at Count Basie Square, dancing, and the energy of locals and visitors mixing in a true Caribbean atmosphere.</p>
+                <div class="card-meta" style="margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Port Lucaya, Freeport</span>
+                  <span><i class="fas fa-clock"></i> Open Daily</span>
+                  <span><i class="fas fa-music"></i> Live Music Nightly</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-map-marker-alt"></i> What's There</h4>
+                <ul>
+                  <li>🛍️ Boutique shops & souvenir stalls</li>
+                  <li>🍽️ 10+ restaurants & bars</li>
+                  <li>🎵 Count Basie Square live music</li>
+                  <li>🎨 Local arts & craft vendors</li>
+                  <li>⛵ Marina & waterfront views</li>
+                  <li>🌙 Best nightlife hub in Freeport</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card banana-bay-card lucayan-attr-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/bb/d1/7b/caption.jpg" alt="Lucayan National Park" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/68/c6/b7/caption.jpg" alt="Lucayan National Park" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/68/c6/b6/caption.jpg" alt="Lucayan National Park" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/68/c6/b1/caption.jpg" alt="Lucayan National Park" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/32/a3/1a/gold-rock-beach.jpg" alt="Gold Rock Beach" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('lucayan-attr-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('lucayan-attr-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="laa-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
+                  <span class="card-tag">National Park</span>
+                  <span style="background:#e8f4fd; color:#1a6fa8; font-size:0.78rem; font-weight:700; padding:4px 12px; border-radius:50px;">⭐ 4.5 · #2 on Grand Bahama Island</span>
+                </div>
+                <h3>Lucayan National Park</h3>
+                <p>Explore one of the world's longest charted underwater cave systems at Lucayan National Park. With 40 acres of diverse ecosystems including Ben's Cave, mangrove boardwalks, and the stunning Gold Rock Beach, this park is a must-visit natural treasure.</p>
+                <div class="card-meta" style="flex-wrap:wrap; gap:10px; margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Grand Bahama Highway (25 miles east of Freeport)</span>
+                  <span><i class="fas fa-clock"></i> Daily access</span>
+                  <span><i class="fas fa-ticket-alt"></i> Adults $11, Children $6</span>
+                  <span><i class="fas fa-phone"></i> +1 242-352-5438</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-tree"></i> Highlights</h4>
+                <ul>
+                  <li>🗺️ World's longest underwater cave system</li>
+                  <li>🌊 Gold Rock Beach access</li>
+                  <li>🌿 Mangrove boardwalk trails</li>
+                  <li>🐚 Ben's Cave &amp; Burial Mound Cave</li>
+                  <li>🦀 Marine life &amp; starfish</li>
+                  <li>🎬 Pirates of the Caribbean filming location</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card banana-bay-card garden-groves-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/cb/93/33/caption.jpg" alt="Garden of the Groves" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/be/aa/6c/the-labyrinth.jpg" alt="The Labyrinth" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/2e/4d/31/beautiful-scenic-shots.jpg" alt="Scenic Views" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/a2/08/d1/caption.jpg" alt="Garden of the Groves" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/a2/08/d0/caption.jpg" alt="Garden of the Groves" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/a2/08/cf/caption.jpg" alt="Garden of the Groves" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/08/4c/a4/caption.jpg" alt="Garden of the Groves" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/08/4c/a8/caption.jpg" alt="Garden of the Groves" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/08/4c/a2/caption.jpg" alt="Garden of the Groves" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/dc/9b/9c/caption.jpg" alt="Garden of the Groves" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/dc/9b/9b/caption.jpg" alt="Garden of the Groves" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/7f/8f/57/photo0jpg.jpg" alt="Garden Café" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('garden-groves-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('garden-groves-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="gg-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
+                  <span class="card-tag">Botanical Garden</span>
+                  <span style="background:#f9f3e3; color:#b8860b; font-size:0.78rem; font-weight:700; padding:4px 12px; border-radius:50px;">⭐ 4.1 · #1 Attraction in Freeport</span>
+                </div>
+                <h3>Garden of the Groves</h3>
+                <p>A stunning 12-acre tropical paradise ranked the <strong>#1 attraction in Freeport</strong> on TripAdvisor with over 1,000 reviews! Wander lush pathways through native Bahamian flora, spot birds, butterflies, turtles and ducks, marvel at the waterfall, explore the labyrinth, visit the charming chapel, and finish with cocktails at the Garden Café. Guided tours available.</p>
+                <div class="card-meta" style="flex-wrap:wrap; gap:10px; margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Magellan & Midshipman Dr, Freeport</span>
+                  <span><i class="fas fa-clock"></i> Daily 9am–4pm</span>
+                  <span><i class="fas fa-ticket-alt"></i> $17 per person</span>
+                  <span><i class="fas fa-phone"></i> +1 242-374-7778</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-leaf"></i> Highlights</h4>
+                <ul>
+                  <li>🦋 Birds, butterflies, turtles & ducks</li>
+                  <li>💧 Waterfall & walking paths</li>
+                  <li>🌀 Labyrinth & meditation garden</li>
+                  <li>⛪ Charming on-site chapel</li>
+                  <li>🍹 Garden Café & cocktail bar</li>
+                  <li>🛍️ Straw market & souvenir shops</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card banana-bay-card unexso-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/1a/67/06/sanctuary-bay.jpg" alt="Sanctuary Bay" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/1a/67/0b/glass-bottom-boat.jpg" alt="Glass Bottom Boat" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/1a/67/0a/snorkel-sea-safari.jpg" alt="Snorkel Sea Safari" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/1a/67/09/captain-gus.jpg" alt="Captain Gus" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/1a/67/08/perry-institute.jpg" alt="Perry Institute" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/4f/9f/4b/unexso.jpg" alt="UNEXSO" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/4f/9f/46/unexso.jpg" alt="UNEXSO" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/4f/9f/44/unexso.jpg" alt="UNEXSO" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/4f/9f/40/unexso.jpg" alt="UNEXSO" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/9c/fd/9e/caption.jpg" alt="UNEXSO Dolphins" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/6f/e5/13/caption.jpg" alt="UNEXSO Experience" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/43/78/df/caption.jpg" alt="UNEXSO Marine Life" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/43/78/de/caption.jpg" alt="UNEXSO" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/bf/6b/ac/caption.jpg" alt="UNEXSO" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('unexso-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('unexso-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="ux-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
+                  <span class="card-tag">Diving & Water Sports</span>
+                  <span style="background:#e8f4fd; color:#1a6fa8; font-size:0.78rem; font-weight:700; padding:4px 12px; border-radius:50px;">⭐ 4.7 · #2 Water Sport in Freeport</span>
+                </div>
+                <h3>UNEXSO — Underwater Explorer's Society</h3>
+                <p>Established in 1965, UNEXSO is the most celebrated dive & marine experience center in the Bahamas, rated <strong>4.7 stars</strong> across 1,000+ reviews. Offering glass-bottom boat tours, snorkel sea safaris, shark dives, and world-famous dolphin encounters at Sanctuary Bay. Staffed by knowledgeable, kind, and entertaining professionals — a truly bucket-list experience.</p>
+                <div class="card-meta" style="flex-wrap:wrap; gap:10px; margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Port Lucaya, Freeport</span>
+                  <span><i class="fas fa-clock"></i> Daily 8am–6pm</span>
+                  <span><i class="fas fa-phone"></i> +1 800-992-3483</span>
+                  <span><i class="fas fa-globe"></i> sanctuarybaybahamas.com</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-water"></i> Experiences</h4>
+                <ul>
+                  <li>🐬 Dolphin encounters at Sanctuary Bay</li>
+                  <li>🦈 Shark diving & reef dives</li>
+                  <li>🤿 Snorkel sea safari tours</li>
+                  <li>🚤 Glass-bottom boat tours</li>
+                  <li>🌊 Sightseeing boat tours</li>
+                  <li>🎓 Education & research programs</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card banana-bay-card taino-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/32/41/b6/white-sands.jpg" alt="Taino Beach White Sands" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/e2/28/02/caption.jpg" alt="Taino Beach" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/e2/28/03/caption.jpg" alt="Taino Beach" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/e2/28/04/caption.jpg" alt="Taino Beach" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/e2/28/05/caption.jpg" alt="Taino Beach" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/31/e2/28/06/caption.jpg" alt="Taino Beach" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/b8/65/c3/caption.jpg" alt="Taino Beach" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('taino-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('taino-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="ta-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
+                  <span class="card-tag">Beach</span>
+                  <span style="background:#e8f4fd; color:#1a6fa8; font-size:0.78rem; font-weight:700; padding:4px 12px; border-radius:50px;">⭐ 4.1 · #2 Thing to Do in Freeport</span>
+                </div>
+                <h3>Taino Beach</h3>
+                <p>One of Freeport's most beloved beaches — a stretch of powdery white sand with calm, clear turquoise water perfect for families. Taino Beach is lined with beach bars, restaurants, and water sport rentals, and offers stunning sunsets over the water.</p>
+                <div class="card-meta" style="flex-wrap:wrap; gap:10px; margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> 30 Jolly Roger Drive, Lucaya</span>
+                  <span><i class="fas fa-clock"></i> Open daily · Free access</span>
+                  <span><i class="fas fa-ticket-alt"></i> Water sports available</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-umbrella-beach"></i> Highlights</h4>
+                <ul>
+                  <li>🏖️ Powdery white sand</li>
+                  <li>🌊 Calm family-friendly waters</li>
+                  <li>🛥️ Jet ski &amp; parasailing</li>
+                  <li>🏄 Paddleboard rentals</li>
+                  <li>🍹 Beach bars &amp; restaurants</li>
+                  <li>🌅 Beautiful sunsets</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card banana-bay-card rand-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/01/1e/5f/caption.jpg" alt="Rand Nature Centre" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/99/82/ee/lizard-on-red-powderpuff.jpg" alt="Lizard on Red Powderpuff" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/76/0b/c9/caption.jpg" alt="Rand Nature Centre" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('rand-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('rand-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="ra-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
+                  <span class="card-tag">Nature &amp; Wildlife</span>
+                </div>
+                <h3>Rand Nature Centre</h3>
+                <p>A 100-acre wildlife reserve and arboretum operated by the Bahamas National Trust. Walk nature trails through native pineland, spot tropical birds, turtles, and the endangered Bahamas parrot. Features an indoor museum, art gallery, and guided bird-watching tours.</p>
+                <div class="card-meta" style="flex-wrap:wrap; gap:10px; margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> E. Settlers Way, Freeport</span>
+                  <span><i class="fas fa-clock"></i> Guided tours Tue &amp; Thu 10:30am</span>
+                  <span><i class="fas fa-ticket-alt"></i> Adults $12, Children $6</span>
+                  <span><i class="fas fa-phone"></i> +1 242-352-5438</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-binoculars"></i> Highlights</h4>
+                <ul>
+                  <li>🦩 West Indian flamingos</li>
+                  <li>🦜 Endangered Bahamas parrot</li>
+                  <li>🌿 100-acre nature trails</li>
+                  <li>🐢 Turtle &amp; bird pond</li>
+                  <li>🏛️ Indoor museum &amp; art gallery</li>
+                  <li>🔭 Bird-watching tours</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card banana-bay-card peterson-cay-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/58/c3/e9/peterson-cay.jpg" alt="Peterson Cay" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/58/c4/40/peterson-cay.jpg" alt="Peterson Cay" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/e2/b0/c7/amazing-starfish.jpg" alt="Amazing Starfish" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('peterson-cay-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('peterson-cay-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="pc2-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
+                  <span class="card-tag">Island &amp; Marine Park</span>
+                  <span style="background:#e8f4fd; color:#1a6fa8; font-size:0.78rem; font-weight:700; padding:4px 12px; border-radius:50px;">⭐ 4.5 · #7 Thing to Do in Freeport</span>
+                </div>
+                <h3>Peterson Cay National Park</h3>
+                <p>A secluded 1.5-acre island paradise and the only cay on Grand Bahama's south coast — accessible by boat only. Surrounded by 1,000 acres of protected marine habitat, Peterson Cay offers world-class snorkeling, vibrant coral reefs, sea turtles, and total seclusion just one mile offshore.</p>
+                <div class="card-meta" style="flex-wrap:wrap; gap:10px; margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Off southern coast, Freeport</span>
+                  <span><i class="fas fa-clock"></i> Boat access only</span>
+                  <span><i class="fas fa-ticket-alt"></i> Tour packages from $65</span>
+                  <span><i class="fas fa-phone"></i> +1 242-393-1317</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-water"></i> Highlights</h4>
+                <ul>
+                  <li>🐢 Sea turtles &amp; nurse sharks</li>
+                  <li>🐠 Vibrant coral reefs</li>
+                  <li>🤿 World-class snorkeling</li>
+                  <li>🏝️ Private secluded island</li>
+                  <li>🦞 Lobsters &amp; starfish</li>
+                  <li>🧺 Perfect for picnics &amp; BBQ</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card banana-bay-card straw-market-card" style="grid-column: span 3;">
+          <div class="bb-gallery">
+            <div class="bb-slides">
+              <div class="bb-slide active"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/27/d2/c8/sign-at-entrance-to-port.jpg" alt="Port Lucaya Marketplace Sign" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/c1/b8/3e/port-lucaya-marketplace.jpg" alt="Port Lucaya Marketplace" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/69/f3/09/hand-painted-dishwasher.jpg" alt="Local Bahamian Crafts" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/32/27/d2/ca/sydney-the-glassblower.jpg" alt="Local Artisan Glassblower" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/f6/3c/06/photo0jpg.jpg" alt="Port Lucaya Shops" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/21/85/13/90/variopinto.jpg" alt="Straw Market Goods" /></div>
+              <div class="bb-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/fd/87/40/standing.jpg" alt="Port Lucaya Marketplace Shopping" /></div>
+            </div>
+            <button class="bb-prev" onclick="bbSlide('straw-market-card', -1)"><i class="fas fa-chevron-left"></i></button>
+            <button class="bb-next" onclick="bbSlide('straw-market-card', 1)"><i class="fas fa-chevron-right"></i></button>
+            <div class="bb-dots" id="sm-dots"></div>
+          </div>
+          <div class="card-body bb-body">
+            <div class="bb-info">
+              <div>
+                <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
+                  <span class="card-tag">Shopping &amp; Culture</span>
+                </div>
+                <h3>Freeport City Markets &amp; Straw Market</h3>
+                <p>Browse authentic handcrafted Bahamian goods made by local artisans — straw bags, wood carvings, painted artwork, and island jewellery. The Straw Market is the perfect place to find unique, meaningful souvenirs that support local craftspeople.</p>
+                <div class="card-meta" style="flex-wrap:wrap; gap:10px; margin-top:12px;">
+                  <span><i class="fas fa-map-marker-alt"></i> Downtown Freeport</span>
+                  <span><i class="fas fa-clock"></i> Daily 9am–5pm</span>
+                  <span><i class="fas fa-ticket-alt"></i> Free entry</span>
+                </div>
+              </div>
+              <div class="bb-menu-highlights">
+                <h4><i class="fas fa-store"></i> Highlights</h4>
+                <ul>
+                  <li>🧺 Handwoven straw goods</li>
+                  <li>🎨 Local artwork &amp; paintings</li>
+                  <li>🪵 Wood carvings &amp; sculptures</li>
+                  <li>💍 Island jewellery</li>
+                  <li>🛍️ Authentic Bahamian souvenirs</li>
+                  <li>👩‍🎨 Meet local artisans</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Map Section -->
+      <div style="margin-top: 60px; background: var(--navy); border-radius: 20px; padding: 48px; text-align: center; color: white;">
+        <h3 style="color: var(--mint); margin-bottom: 12px; font-size: 1.6rem;">📍 Getting Around Freeport</h3>
+        <p style="color: rgba(255,255,255,0.75); max-width: 600px; margin: 0 auto 32px; line-height: 1.7;">Grand Bahama Island is easy to explore. Rent a car, hop in a taxi, or use local jitneys (shared minibuses) to get around. Most major attractions are within 30 minutes of Ellie's Place.</p>
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; max-width: 700px; margin: 0 auto;">
+          <div style="background: rgba(255,255,255,0.08); border-radius: 12px; padding: 20px;">
+            <div style="font-size: 2rem; margin-bottom: 8px;">🚗</div>
+            <strong style="color: var(--mint);">Car Rental</strong>
+            <p style="color: rgba(255,255,255,0.6); font-size: 0.85rem; margin-top: 6px;">Available at airport & Port Lucaya</p>
+          </div>
+          <div style="background: rgba(255,255,255,0.08); border-radius: 12px; padding: 20px;">
+            <div style="font-size: 2rem; margin-bottom: 8px;">🚕</div>
+            <strong style="color: var(--mint);">Taxi</strong>
+            <p style="color: rgba(255,255,255,0.6); font-size: 0.85rem; margin-top: 6px;">Readily available across Freeport</p>
+          </div>
+          <div style="background: rgba(255,255,255,0.08); border-radius: 12px; padding: 20px;">
+            <div style="font-size: 2rem; margin-bottom: 8px;">🚌</div>
+            <strong style="color: var(--mint);">Jitney Bus</strong>
+            <p style="color: rgba(255,255,255,0.6); font-size: 0.85rem; margin-top: 6px;">Budget-friendly local transport</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo"><img src="Photos/Logo/ellies-place-logo.png" alt="Ellie's Place" class="nav-logo-img" /></div>
+          <p>Luxury short & long term rentals in the heart of Freeport, Grand Bahama Island, Bahamas.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#properties">Properties</a></li>
+            <li><a href="index.html#contact">Book Now</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="restaurants.html">Dining</a></li>
+            <li><a href="nightlife.html">Nightlife</a></li>
+            <li><a href="attractions.html">Attractions</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Contact</h4>
+          <ul>
+            <li><i class="fas fa-map-marker-alt"></i> Freeport, Grand Bahama</li>
+            <li><i class="fas fa-phone"></i> +1 (242) 000-0000</li>
+            <li><i class="fas fa-envelope"></i> info@elliesplace.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Ellie's Place. All rights reserved. | Freeport, Grand Bahama, Bahamas</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
